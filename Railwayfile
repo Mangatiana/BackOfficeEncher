@@ -1,0 +1,18 @@
+application {
+  name = "nom_de_votre_application"
+  version = "1.0"
+
+  servlet {
+    name = "nom_de_votre_servlet"
+    path = "/nom_de_votre_servlet"
+  }
+}
+
+deployment {
+  target {
+    host = "nom_d_hote"
+    username = "nom_d_utilisateur"
+    password = "mot_de_passe"
+    path = "/chemin_de_deploiement"
+  }
+}
